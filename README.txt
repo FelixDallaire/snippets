@@ -1,0 +1,1 @@
+The location of the snippets are in AppData\Roaming\Code\User\snippets .
