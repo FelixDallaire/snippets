@@ -5,18 +5,18 @@
 		  "List<${0:Type}> ${1:Name} = new List<${0:Type}>(); "
 		],
 		"description": "Basic List"
-	  }
+	  },
 
 	  "Basic Method": {
 		"prefix": "methode",
 		"body": [
 		  "${1:Visibility} ${2:Return Type} ${3:Name}()",
 		  "{",
-		  	"	${0:}",
+		  "    ${0:}",
 		  "}"
 		],
 		"description": "Basic Method"
-	  }
+	  },
 
 	  "Basic Function": {
 		"prefix": "function",
@@ -27,5 +27,5 @@
 		  "}"
 		],
 		"description": "Basic Function"
-	  }
+	  },
 }

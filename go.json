@@ -7,7 +7,7 @@
 		  "}"
 		],
 		"description": "Basic methode"
-	  }
+	  },
 	
 	  "Fin the min number of array": {
 	"prefix": "minrr",
@@ -20,7 +20,7 @@
 	  "}"
 	],
 	"description": "Fin the min number of array"
-	}
+	},
 
 	"While loop with a boolean Expression as condition": {
 		"prefix": "while",
@@ -30,7 +30,7 @@
 		  "}"
 		],
 		"description": "While loop with a boolean Expression as condition"
-	  }
+	  },
 
 	  "Remove the last item of an array": {
 		"prefix": "remove0",
@@ -38,5 +38,5 @@
 		  "${1:slice} = ${1:slice} [1:]"
 		],
 		"description": "Remove the last item of an array"
-	  }
+	  },
 }
