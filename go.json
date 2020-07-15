@@ -1,0 +1,42 @@
+{
+	"Basic methode": {
+		"prefix": "methode",
+		"body": [
+		  "func (${1:receiver} ${2:Type}) ${3:MethodName}(${4:parameterList}) (${5:returnTypes}) {",
+		  	"${6:   }", 
+		  "}"
+		],
+		"description": "Basic methode"
+	  }
+	
+	  "Fin the min number of array": {
+	"prefix": "minrr",
+	"body": [
+	  "var ${1:MinName} ${2:Type} = ${3:Array}[0]",
+	  "for _, ${4:Element}:= range ${3:Array}{",
+	  "  if ${4:Element} < ${1:MinName}{",
+	  "    ${1:MinName} = ${4:Element}",
+	  "  }",
+	  "}"
+	],
+	"description": "Fin the min number of array"
+	}
+
+	"While loop with a boolean Expression as condition": {
+		"prefix": "while",
+		"body": [
+		  "for ${1:booleanExpression} {",
+		  "${6:   }",
+		  "}"
+		],
+		"description": "While loop with a boolean Expression as condition"
+	  }
+
+	  "Remove the last item of an array": {
+		"prefix": "remove0",
+		"body": [
+		  "${1:slice} = ${1:slice} [1:]"
+		],
+		"description": "Remove the last item of an array"
+	  }
+}

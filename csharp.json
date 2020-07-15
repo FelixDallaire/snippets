@@ -1,0 +1,31 @@
+{
+	"Basic List": {
+		"prefix": "list",
+		"body": [
+		  "List<${0:Type}> ${1:Name} = new List<${0:Type}>(); "
+		],
+		"description": "Basic List"
+	  }
+
+	  "Basic Method": {
+		"prefix": "methode",
+		"body": [
+		  "${1:Visibility} ${2:Return Type} ${3:Name}()",
+		  "{",
+		  	"	${0:}",
+		  "}"
+		],
+		"description": "Basic Method"
+	  }
+
+	  "Basic Function": {
+		"prefix": "function",
+		"body": [
+		  "${1:visibility} ${2:return type} ${3:name}(${4:parameters})",
+		  "{",
+		  "    ${0:function code}",
+		  "}"
+		],
+		"description": "Basic Function"
+	  }
+}

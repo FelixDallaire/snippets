@@ -1,0 +1,28 @@
+{
+	// Place your snippets for html here. Each snippet is defined under a snippet name and has a prefix, body and 
+	// description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the 
+	// same ids are connected.
+	// Example:
+	// "Print to console": {
+	// 	"prefix": "log",
+	// 	"body": [
+	// 		"console.log('$1');",
+	// 		"$2"
+	// 	],
+	// 	"description": "Log output to console"
+	// }
+	"Basic bootstrap grid system": {
+		"prefix": "bboot",
+		"body": [
+		  "<div class=\"${1:ContainerType}\">",
+		  "  <div class=\"row\">",
+		  "    <div class=\"col-${2:Size}-${3:Number}\">",
+		  "		${4:Code}"
+		  "    </div>",
+		  "  </div>",
+		  "</div>"
+		],
+		"description": "Basic bootstrap grid system"
+	  }
+}

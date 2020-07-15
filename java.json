@@ -1,0 +1,25 @@
+{
+	"Print a line": {
+		"prefix": "println",
+		"body": [
+		  "System.out.println(\"${1:Hello World}\");"
+		],
+		"description": "Print a line"
+	  }
+
+	  "Starting a basic file": {
+		"prefix": "#helloworld",
+		"body": [
+		  "/**",
+		  " * HelloWorld",
+		  " */",
+		  "public class HelloWorld {",
+		  "",
+		  "    public static void main(String[] args) {",
+		  "        ",
+		  "    }",
+		  "}"
+		],
+		"description": "Starting a basic file"
+	  }
+}
