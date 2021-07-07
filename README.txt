@@ -1,3 +1,6 @@
+# Test
+
+
 # Path
 ## Windows
 ```
@@ -13,3 +16,5 @@ $HOME\Library\Application Support\Code\User\snippets\
 ```
 https://snippet-generator.app
 ```
+
+
