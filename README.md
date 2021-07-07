@@ -1,10 +1,10 @@
 # Path
-## Windows
+### Windows
 ```
 AppData\Roaming\Code\User\snippets
 ```
 
-## Mac
+### Mac
 ```
 $HOME\Library\Application Support\Code\User\snippets\
 ```
