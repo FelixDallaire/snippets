@@ -13,20 +13,20 @@
 	// 	"description": "Log output to console"
 	// }
 	"Create Dart Base": {
-		"prefix": "!!!",
+		"prefix": "helloDart",
 		"body": [
 			"import 'package:flutter/material.dart';",
 			"",
-			"void main() => runApp(new {$1:MyApp}());",
+			"void main() => runApp(new ${1:MyApp}());",
 			"",
-			"class {$1:MyApp} extends StatefulWidget {",
+			"class ${1:MyApp} extends StatefulWidget {",
 			"  @override",
 			"  State<StatefulWidget> createState() {",
-			"    return new {$2:myState}();",
+			"    return new ${2:MyState}();",
 			"  }",
 			"}",
 			"",
-			"class {$2:myState} extends State<{$1:MyApp}> {",
+			"class ${2:MyState} extends State<${1:MyApp}> {",
 			"  @override",
 			"  Widget build(BuildContext context) {",
 			"",
