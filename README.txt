@@ -1,6 +1,3 @@
-# Test
-
-
 # Path
 ## Windows
 ```
