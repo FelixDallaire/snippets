@@ -13,7 +13,7 @@
 	// 	"description": "Log output to console"
 	// }
 	"Basic bootstrap grid system": {
-		"prefix": "bboot",
+		"prefix": "bgrid",
 		"body": [
 		  "<div class=\"${1:ContainerType}\">",
 		  "  <div class=\"row\">",
