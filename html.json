@@ -12,17 +12,26 @@
 	// 	],
 	// 	"description": "Log output to console"
 	// }
-	"Basic bootstrap grid system": {
-		"prefix": "bgrid",
+	"php": {
+		"prefix": "php",
 		"body": [
-		  "<div class=\"${1:ContainerType}\">",
-		  "  <div class=\"row\">",
-		  "    <div class=\"col-${2:Size}-${3:Number}\">",
-		  "		${4:Code}"
-		  "    </div>",
-		  "  </div>",
-		  "</div>"
+			"<?php $1 ; ?>",
+			"$2"
 		],
-		"description": "Basic bootstrap grid system"
-	  }
+		"description": "php tag"
+	},
+	"PHP - if/else": {
+		"prefix": "pif",
+		"body": [
+			"<?php",
+			"  $1",
+			"  if (${2:Condition}) {",
+			"    ${3:If code};",
+			"  } else {",
+			"    ${4:Else code};",
+			"  }",
+			"?>$0"
+		],
+		"description": "PHP - if/else"
+	}
 }
